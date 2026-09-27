@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="AquaMind">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07131f"/>
+      <stop offset="0.5" stop-color="#0a2233"/>
+      <stop offset="1" stop-color="#0c3346"/>
+    </linearGradient>
+    <linearGradient id="ray" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5eead4" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#5eead4" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.34" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <symbol id="fish" viewBox="0 0 24 24">
+      <path d="M6.5 12c.94-3.46 4.94-6 8.5-6 3.56 0 6.06 2.54 7 6-.94 3.47-3.44 6-7 6S7.44 15.47 6.5 12Z"/>
+      <path d="M6.5 12 2 9.5v5L6.5 12Z"/>
+    </symbol>
+  </defs>
+
+  <rect width="1200" height="420" fill="url(#bg)"/>
+  <rect width="1200" height="420" fill="url(#glow)"/>
+
+  <!-- light rays -->
+  <g opacity="0.5">
+    <polygon points="180,0 300,0 420,420 260,420" fill="url(#ray)"/>
+    <polygon points="360,0 420,0 560,420 480,420" fill="url(#ray)" opacity="0.7"/>
+    <polygon points="760,0 820,0 980,420 900,420" fill="url(#ray)" opacity="0.6"/>
+  </g>
+
+  <!-- circuit traces -->
+  <g stroke="#2dd4bf" stroke-width="1.4" fill="none" opacity="0.5">
+    <path d="M40 360 H180 L210 330 H330"/>
+    <path d="M40 388 H150 L178 360 H300 L330 330"/>
+    <path d="M1160 80 H1040 L1010 110 H900"/>
+    <path d="M1160 108 H1060 L1032 136 H920 L890 110"/>
+  </g>
+  <g fill="#2dd4bf" opacity="0.8">
+    <circle cx="40" cy="360" r="3"/><circle cx="330" cy="330" r="3"/>
+    <circle cx="40" cy="388" r="3"/><circle cx="890" cy="110" r="3"/>
+    <circle cx="1160" cy="80" r="3"/><circle cx="1160" cy="108" r="3"/>
+  </g>
+
+  <!-- bubbles -->
+  <g fill="#a5f3fc" opacity="0.35">
+    <circle cx="880" cy="300" r="6"/><circle cx="905" cy="268" r="4"/>
+    <circle cx="872" cy="238" r="5"/><circle cx="900" cy="200" r="3"/>
+    <circle cx="885" cy="168" r="4"/>
+  </g>
+
+  <!-- fish school -->
+  <g fill="#67e8f9">
+    <use href="#fish" x="700" y="250" width="60" height="60" opacity="0.9"/>
+    <use href="#fish" x="790" y="230" width="48" height="48" opacity="0.75"/>
+    <use href="#fish" x="850" y="270" width="40" height="40" opacity="0.6"/>
+    <use href="#fish" x="760" y="300" width="44" height="44" opacity="0.7"/>
+    <use href="#fish" x="910" y="250" width="34" height="34" opacity="0.5"/>
+    <use href="#fish" x="955" y="285" width="30" height="30" opacity="0.45"/>
+    <use href="#fish" x="735" y="215" width="34" height="34" opacity="0.5"/>
+  </g>
+
+  <!-- title -->
+  <g>
+    <use href="#fish" x="80" y="150" width="52" height="52" fill="#22d3ee"/>
+    <text x="150" y="196" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="72" font-weight="700" fill="#e8f6ff">AquaMind</text>
+    <text x="152" y="246" font-family="'Segoe UI',system-ui,Arial,sans-serif" font-size="30" fill="#7dd3fc" opacity="0.92">Sistema di monitoraggio acquario · IoT · open source</text>
+    <g font-family="monospace" font-size="20" fill="#5eead4" opacity="0.85">
+      <rect x="152" y="286" width="208" height="34" rx="8" fill="#22d3ee" opacity="0.12" stroke="#22d3ee" stroke-opacity="0.4"/>
+      <text x="166" y="309">temp · pH · TDS</text>
+      <rect x="376" y="286" width="220" height="34" rx="8" fill="#22d3ee" opacity="0.12" stroke="#22d3ee" stroke-opacity="0.4"/>
+      <text x="390" y="309">livello · camera</text>
+      <rect x="612" y="286" width="196" height="34" rx="8" fill="#22d3ee" opacity="0.12" stroke="#22d3ee" stroke-opacity="0.4"/>
+      <text x="626" y="309">AI · notifiche</text>
+    </g>
+  </g>
+</svg>
