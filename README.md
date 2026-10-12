@@ -1,3 +1,4 @@
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
 
 <p align="center">
   <img src="docs/banner_en.png" alt="AquaMind — aquarium monitoring system" width="920"/>
@@ -49,6 +50,28 @@ let you keep an eye on everything, even from afar.
 
 The project covers **the entire chain**: from the sensor firmware, to the custom PCB,
 to the 3D-printed case, all the way to the Docker backend and the React frontend.
+
+### 📸 The final prototype
+
+A photo tour of the built prototype: custom PCB, 3D-printed enclosure and all the components. **Click any photo to open it full size.**
+
+<table>
+  <tr>
+    <td align="center"><a href="images/proto_01.jpg"><img src="images/proto_01.jpg" width="220" alt="PCB fabricated by PCBWay"/></a><br><sub>🏭 PCB fabricated by PCBWay</sub></td>
+    <td align="center"><a href="images/proto_02.jpg"><img src="images/proto_02.jpg" width="220" alt="Components and JST connectors"/></a><br><sub>🧩 Components &amp; JST connectors</sub></td>
+    <td align="center"><a href="images/proto_03.jpg"><img src="images/proto_03.jpg" width="220" alt="Wired sensors and ESP32"/></a><br><sub>🔌 Wired sensors + ESP32</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="images/proto_04.jpg"><img src="images/proto_04.jpg" width="220" alt="3D-printed enclosure with PCB"/></a><br><sub>🧊 3D-printed enclosure + PCB</sub></td>
+    <td align="center"><a href="images/proto_05.jpg"><img src="images/proto_05.jpg" width="220" alt="Enclosure with OLED display"/></a><br><sub>🖥️ Enclosure with OLED display</sub></td>
+    <td align="center"><a href="images/proto_06.jpg"><img src="images/proto_06.jpg" width="220" alt="3D-printed lid AQUAMIND"/></a><br><sub>🐟 3D-printed lid "AQUAMIND"</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="images/proto_07.jpg"><img src="images/proto_07.jpg" width="220" alt="Front panel TEMP PH TDS LEVEL"/></a><br><sub>🏷️ Front panel · TEMP · PH · TDS · LEVEL</sub></td>
+    <td align="center"><a href="images/proto_08.jpg"><img src="images/proto_08.jpg" width="220" alt="Open enclosure with PCB inside"/></a><br><sub>📂 Open enclosure, PCB inside</sub></td>
+    <td align="center"><a href="images/proto_09.jpg"><img src="images/proto_09.jpg" width="220" alt="Prototype in the aquarium"/></a><br><sub>🐠 The prototype in the aquarium</sub></td>
+  </tr>
+</table>
 
 ### ⚙️ Features
 

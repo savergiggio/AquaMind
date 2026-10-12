@@ -1,3 +1,5 @@
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+
 <p align="center">
   <img src="docs/banner.png" alt="AquaMind — sistema di monitoraggio acquario" width="920"/>
 </p>
@@ -48,6 +50,28 @@ permettono di tenere d'occhio tutto, anche da lontano.
 
 Il progetto copre **l'intera catena**: dal firmware del sensore, alla PCB custom, al
 case stampato in 3D, fino al backend Docker e alla frontend React.
+
+### 📸 Il prototipo finale
+
+Un tour fotografico del prototipo realizzato: PCB custom, scocca stampata in 3D e tutti i componenti. **Clicca una foto per aprirla a dimensione completa.**
+
+<table>
+  <tr>
+    <td align="center"><a href="images/proto_01.jpg"><img src="images/proto_01.jpg" width="220" alt="PCB realizzato da PCBWay"/></a><br><sub>🏭 PCB realizzato da PCBWay</sub></td>
+    <td align="center"><a href="images/proto_02.jpg"><img src="images/proto_02.jpg" width="220" alt="Componenti e connettori JST"/></a><br><sub>🧩 Componenti &amp; connettori JST</sub></td>
+    <td align="center"><a href="images/proto_03.jpg"><img src="images/proto_03.jpg" width="220" alt="Sensori cablati e ESP32"/></a><br><sub>🔌 Sensori cablati + ESP32</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="images/proto_04.jpg"><img src="images/proto_04.jpg" width="220" alt="Scocca stampata in 3D con PCB"/></a><br><sub>🧊 Scocca stampata in 3D + PCB</sub></td>
+    <td align="center"><a href="images/proto_05.jpg"><img src="images/proto_05.jpg" width="220" alt="Scocca con display OLED"/></a><br><sub>🖥️ Scocca con display OLED</sub></td>
+    <td align="center"><a href="images/proto_06.jpg"><img src="images/proto_06.jpg" width="220" alt="Coperchio stampato in 3D AQUAMIND"/></a><br><sub>🐟 Coperchio stampato in 3D "AQUAMIND"</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="images/proto_07.jpg"><img src="images/proto_07.jpg" width="220" alt="Pannello frontale TEMP PH TDS LEVEL"/></a><br><sub>🏷️ Pannello frontale · TEMP · PH · TDS · LEVEL</sub></td>
+    <td align="center"><a href="images/proto_08.jpg"><img src="images/proto_08.jpg" width="220" alt="Scocca aperta con PCB dentro"/></a><br><sub>📂 Scocca aperta, PCB dentro</sub></td>
+    <td align="center"><a href="images/proto_09.jpg"><img src="images/proto_09.jpg" width="220" alt="Prototipo in acquario"/></a><br><sub>🐠 Il prototipo in acquario</sub></td>
+  </tr>
+</table>
 
 ### ⚙️ Caratteristiche
 
