@@ -1,3 +1,5 @@
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+
 <p align="center">
   <img src="docs/banner.png" alt="AquaMind — sistema di monitoraggio acquario" width="920"/>
 </p>
@@ -285,7 +287,7 @@ del verde — e **riadattata** apposta per questo scopo: al suo interno trova po
 camera **IMX179** (8 MP, 1080p, CMOS 1/3.2″) e la sfera viene fissata al vetro
 dell'acquario con l'**attacco 53 mm** (sorgenti in `3D/display/`).
 
-![Telecamera night-vision](docs/camera.jpg)
+![Camera IMX179](docs/imx179-camera.jpg)
 
 ---
 

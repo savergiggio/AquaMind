@@ -1,3 +1,5 @@
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+
 <p align="center">
   <img src="docs/banner_en.png" alt="AquaMind — aquarium monitoring system" width="920"/>
 </p>
@@ -282,7 +284,7 @@ those solar-panel LED globes used for garden lighting — and **repurposed** for
 purpose: inside it sits the **IMX179** camera (8 MP, 1080p, 1/3.2″ CMOS), and the
 sphere is fixed to the tank glass with the **53 mm mount** (sources in `3D/display/`).
 
-![Night-vision camera](docs/camera.jpg)
+![IMX179 camera](docs/imx179-camera.jpg)
 
 ---
 
