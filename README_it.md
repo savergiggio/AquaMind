@@ -1,5 +1,7 @@
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+
 <p align="center">
-  <img src="docs/banner.png" alt="AquaMind — Sistema di monitoraggio acquario" width="920"/>
+  <img src="docs/banner.png" alt="AquaMind — sistema di monitoraggio acquario" width="920"/>
 </p>
 
 <p align="center">
@@ -10,6 +12,7 @@
 <p align="center">
   <strong>🇮🇹 Italiano</strong> · <a href="README.md"><strong>🇬🇧 English</strong></a>
 </p>
+
 <p align="center">
   <img alt="Firmware" src="https://img.shields.io/badge/firmware-2.0.0--S3-22d3ee?style=for-the-badge&logo=esp32&logoColor=white"/>
   <img alt="Docker" src="https://img.shields.io/badge/docker-ready-2563eb?style=for-the-badge&logo=docker&logoColor=white"/>
@@ -32,6 +35,7 @@
   <a href="#-sponsor--pcbway">Sponsor · PCBWay</a>
   </sub>
 </p>
+
 ---
 
 # 🇮🇹 AquaMind

@@ -1,37 +1,39 @@
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+
 <p align="center">
-<img src="docs/banner.png" alt="AquaMind — aquarium monitoring system" width="920"/>
+  <img src="docs/banner_en.png" alt="AquaMind — aquarium monitoring system" width="920"/>
 </p>
 
 <p align="center">
-<strong>The brain of your aquarium. 🐟</strong><br>
-Real-time monitoring: <strong>temp, pH, TDS, level, camera, AI, notifications</strong>.
+  <strong>The brain of your aquarium. 🐟</strong><br>
+  Real-time monitoring: <strong>temp, pH, TDS, level, camera, AI, notifications</strong>.
 </p>
 
 <p align="center">
-<strong>🇬🇧 English</strong> · <a href="README_it.md"><strong>🇮🇹 Italiano</strong></a>
+  <strong>🇬🇧 English</strong> · <a href="README_it.md"><strong>🇮🇹 Italiano</strong></a>
 </p>
 
 <p align="center">
-<img alt="Firmware" src="https://img.shields.io/badge/firmware-2.0.0--S3-22d3ee?style=for-the-badge&logo=esp32&logoColor=white"/>
-<img alt="Docker" src="https://img.shields.io/badge/docker-ready-2563eb?style=for-the-badge&logo=docker&logoColor=white"/>
-<img alt="KiCad" src="https://img.shields.io/badge/pcb-kicad-0e9f6e?style=for-the-badge&logo=kicad&logoColor=white"/>
-<img alt="React" src="https://img.shields.io/badge/frontend-react%20%2B%20vite-61dafb?style=for-the-badge&logo=react&logoColor=black"/>
-<img alt="License" src="https://img.shields.io/badge/license-MIT-64748b?style=for-the-badge"/>
-<a href="https://pcbway.com"><img alt="PCBs made by PCBWay" src="https://img.shields.io/badge/PCBs%20made%20by-PCBWay-00a4e0?style=for-the-badge&logoColor=white"/></a>
+  <img alt="Firmware" src="https://img.shields.io/badge/firmware-2.0.0--S3-22d3ee?style=for-the-badge&logo=esp32&logoColor=white"/>
+  <img alt="Docker" src="https://img.shields.io/badge/docker-ready-2563eb?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img alt="KiCad" src="https://img.shields.io/badge/pcb-kicad-0e9f6e?style=for-the-badge&logo=kicad&logoColor=white"/>
+  <img alt="React" src="https://img.shields.io/badge/frontend-react%20%2B%20vite-61dafb?style=for-the-badge&logo=react&logoColor=black"/>
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-64748b?style=for-the-badge"/>
+  <a href="https://pcbway.com"><img alt="PCBs made by PCBWay" src="https://img.shields.io/badge/PCBs%20made%20by-PCBWay-00a4e0?style=for-the-badge&logoColor=white"/></a>
 </p>
 
 <p align="center">
-<sub>
-<a href="#-features">Features</a> ·
-<a href="#-architecture">Architecture</a> ·
-<a href="#-repository-structure">Contents</a> ·
-<a href="#-interactive-3d-models">3D Models</a> ·
-<a href="#-renderings-and-underwater-camera">Renderings</a> ·
-<a href="#-quick-start">Quick start</a> ·
-<a href="#-api">API</a> ·
-<a href="#-components">Components</a> ·
- <a href="#-sponsor--pcbway">Sponsor · PCBWay</a>
- </sub>
+  <sub>
+  <a href="#-features">Features</a> ·
+  <a href="#-architecture">Architecture</a> ·
+  <a href="#-repository-structure">Contents</a> ·
+  <a href="#-interactive-3d-models">3D Models</a> ·
+  <a href="#-renderings-and-underwater-camera">Renderings</a> ·
+  <a href="#-quick-start">Quick start</a> ·
+  <a href="#-api">API</a> ·
+  <a href="#-components">Components</a> ·
+  <a href="#-sponsor--pcbway">Sponsor · PCBWay</a>
+  </sub>
 </p>
 
 ---
@@ -207,7 +209,9 @@ docker-compose up -d
 
 ## 🏭 Sponsor · PCBWay
 
-[![PCBs fabricated by PCBWay](https://img.shields.io/badge/PCB%20fabrication-PCBWay-00a4e0?style=for-the-badge&logoColor=white)](https://pcbway.com)
+<p align="center">
+  <a href="https://pcbway.com"><img src="https://img.shields.io/badge/PCB%20fabrication-PCBWay-00a4e0?style=for-the-badge&logoColor=white" alt="PCBs fabricated by PCBWay"/></a>
+</p>
 
 Special thanks to **[PCBWay](https://pcbway.com)**, the **official sponsor of the
 project for PCB fabrication**: they produced the AquaMind board (and the prototype
