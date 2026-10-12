@@ -1,4 +1,3 @@
-<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
 
 <p align="center">
   <img src="docs/banner_en.png" alt="AquaMind — aquarium monitoring system" width="920"/>
