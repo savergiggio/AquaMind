@@ -100,11 +100,12 @@ fish inventory and full history. **Click any screenshot to open it full size.**
     <td align="center"><a href="images/ui_01_dashboard.png"><img src="images/ui_01_dashboard.png" width="620" alt="AquaMind dashboard: live camera, sensors, AI agent, controls"/></a><br><sub>📷 <b>Dashboard</b> — live video, sensors (TEMP · PH · TDS · LEVEL), AquaMind AI agent, manual controls</sub></td>
   </tr>
   <tr>
-    <td align="center"><a href="images/ui_02_maintenance.png"><img src="images/ui_02_maintenance.png" width="220" alt="Maintenance calendar"/></a>
-        <a href="images/ui_03_water_params.png"><img src="images/ui_03_water_params.png" width="220" alt="Water parameters and recipe"/></a>
-        <a href="images/ui_04_fish.png"><img src="images/ui_04_fish.png" width="220" alt="Fish inventory"/></a>
-        <a href="images/ui_05_history.png"><img src="images/ui_05_history.png" width="220" alt="Data history"/></a><br>
-    <sub>📅 <b>Maintenance</b> calendar &nbsp;·&nbsp; 💧 <b>Water parameters</b> &nbsp;·&nbsp; 🐠 <b>Fish inventory</b> &nbsp;·&nbsp; 📈 <b>History</b></sub>
+    <td align="center"><a href="images/ui_02_maintenance.png"><img src="images/ui_02_maintenance.png" width="300" alt="Maintenance calendar"/></a><br><sub>📅 <b>Maintenance</b> — calendar with scheduled water changes and events</sub></td>
+    <td align="center"><a href="images/ui_03_water_params.png"><img src="images/ui_03_water_params.png" width="300" alt="Water parameters and recipe"/></a><br><sub>💧 <b>Water parameters</b> — full analysis, hardness, complete recipe</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="images/ui_04_fish.png"><img src="images/ui_04_fish.png" width="300" alt="Fish inventory"/></a><br><sub>🐠 <b>Fish inventory</b> — species, quantity, food and last feeding</sub></td>
+    <td align="center"><a href="images/ui_05_history.png"><img src="images/ui_05_history.png" width="300" alt="Data history"/></a><br><sub>📈 <b>History</b> — telemetry charts with min/max/avg statistics</sub></td>
   </tr>
 </table>
 
@@ -294,15 +295,15 @@ The three main assemblies are exported as **GLB** (binary glTF) and render
 
 ## 🎨 Renderings and underwater camera
 
-Full-system renderings:
+Screenshots of the 3D models (from the GLB assemblies above):
 
-<p align="center">
-  <img src="rendering/Acquario.png" width="500" alt="AquaMind rendering"/>
-</p>
-
-<p align="center">
-  <img src="rendering/Acquario1.png" width="500" alt="AquaMind rendering 2"/>
-</p>
+<table>
+  <tr>
+    <td align="center"><a href="docs/model_board.png"><img src="docs/model_board.png" width="300" alt="Board + sensors assembly"/></a><br><sub>🧊 Board + sensors assembly</sub></td>
+    <td align="center"><a href="docs/model_camera.png"><img src="docs/model_camera.png" width="300" alt="Camera sphere assembly"/></a><br><sub>📷 Camera sphere + 53 mm mount</sub></td>
+    <td align="center"><a href="docs/model_pcb.png"><img src="docs/model_pcb.png" width="300" alt="AquaMind PCB"/></a><br><sub>🛠️ AquaMind PCB</sub></td>
+  </tr>
+</table>
 
 ### 📷 The underwater sphere
 

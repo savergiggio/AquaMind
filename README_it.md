@@ -101,11 +101,12 @@ screen per aprirlo a dimensione completa.**
     <td align="center"><a href="images/ui_01_dashboard.png"><img src="images/ui_01_dashboard.png" width="620" alt="Dashboard AquaMind: camera live, sensori, agente AI, controlli"/></a><br><sub>📷 <b>Dashboard</b> — video live, sensori (TEMP · PH · TDS · LEVEL), agente AI AquaMind, controlli manuali</sub></td>
   </tr>
   <tr>
-    <td align="center"><a href="images/ui_02_maintenance.png"><img src="images/ui_02_maintenance.png" width="220" alt="Calendario manutenzione"/></a>
-        <a href="images/ui_03_water_params.png"><img src="images/ui_03_water_params.png" width="220" alt="Parametri acqua e ricetta"/></a>
-        <a href="images/ui_04_fish.png"><img src="images/ui_04_fish.png" width="220" alt="Inventario pesci"/></a>
-        <a href="images/ui_05_history.png"><img src="images/ui_05_history.png" width="220" alt="Storico dati"/></a><br>
-    <sub>📅 <b>Manutenzione</b> &nbsp;·&nbsp; 💧 <b>Parametri acqua</b> &nbsp;·&nbsp; 🐠 <b>Inventario pesci</b> &nbsp;·&nbsp; 📈 <b>Storico</b></sub>
+    <td align="center"><a href="images/ui_02_maintenance.png"><img src="images/ui_02_maintenance.png" width="300" alt="Calendario manutenzione"/></a><br><sub>📅 <b>Manutenzione</b> — calendario con cambi d'acqua e interventi programmati</sub></td>
+    <td align="center"><a href="images/ui_03_water_params.png"><img src="images/ui_03_water_params.png" width="300" alt="Parametri acqua e ricetta"/></a><br><sub>💧 <b>Parametri acqua</b> — analisi completa, durezza, ricetta</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="images/ui_04_fish.png"><img src="images/ui_04_fish.png" width="300" alt="Inventario pesci"/></a><br><sub>🐠 <b>Inventario pesci</b> — specie, quantità, cibo e ultimo pasto</sub></td>
+    <td align="center"><a href="images/ui_05_history.png"><img src="images/ui_05_history.png" width="300" alt="Storico dati"/></a><br><sub>📈 <b>Storico</b> — grafici telemetria con statistiche min/max/medie</sub></td>
   </tr>
 </table>
 
@@ -297,15 +298,15 @@ rotella per lo zoom.
 
 ## 🎨 Rendering e telecamera subacquea
 
-Rendering del sistema completo:
+Screen dei modelli 3D (dagli assiemi GLB qui sopra):
 
-<p align="center">
-  <img src="rendering/Acquario.png" width="500" alt="Rendering AquaMind"/>
-</p>
-
-<p align="center">
-  <img src="rendering/Acquario1.png" width="500" alt="Rendering AquaMind 2"/>
-</p>
+<table>
+  <tr>
+    <td align="center"><a href="docs/model_board.png"><img src="docs/model_board.png" width="300" alt="Assieme scheda + sensori"/></a><br><sub>🧊 Assieme scheda + sensori</sub></td>
+    <td align="center"><a href="docs/model_camera.png"><img src="docs/model_camera.png" width="300" alt="Assieme sfera telecamera"/></a><br><sub>📷 Sfera telecamera + attacco 53 mm</sub></td>
+    <td align="center"><a href="docs/model_pcb.png"><img src="docs/model_pcb.png" width="300" alt="PCB AquaMind"/></a><br><sub>🛠️ PCB AquaMind</sub></td>
+  </tr>
+</table>
 
 ### 📷 La sfera subacquea
 

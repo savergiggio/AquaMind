@@ -1,0 +1,29 @@
+# Node
+node_modules/
+**/node_modules/
+**/npm-debug.log*
+
+# Build / dev artefacts
+**/build/
+**/dist/
+**/.DS_Store
+
+# Raspberry / backend runtime
+**/data/
+**/*.db
+**/*.sqlite
+codice/raspberry/backend/.env
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# SolidWorks temp
+~$*.SLDPRT
+~$*.SLDASM
+
+# KiCad auto-backups
+**/AquaMind-backups/
+**/fp-info-cache
