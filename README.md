@@ -94,15 +94,15 @@ fish inventory and full history. **Click any screenshot to open it full size.**
 
 <table>
   <tr>
-    <td align="center"><a href="images/ui_01_dashboard.png"><img src="images/ui_01_dashboard.png" width="620" alt="AquaMind dashboard: live camera, sensors, AI agent, controls"/></a><br><sub>📷 <b>Dashboard</b> — live video, sensors (TEMP · PH · TDS · LEVEL), AquaMind AI agent, manual controls</sub></td>
+    <td align="center" colspan="2"><a href="images/ui_01_dashboard.png"><img src="images/ui_01_dashboard.png" width="620" alt="AquaMind dashboard: live camera, sensors, AI agent, controls"/></a><br><sub>📷 <b>Dashboard</b> — live video, sensors (TEMP · PH · TDS · LEVEL), AquaMind AI agent, manual controls</sub></td>
   </tr>
   <tr>
-    <td align="center"><a href="images/ui_02_maintenance.png"><img src="images/ui_02_maintenance.png" width="320" alt="Maintenance calendar"/></a><br><sub>📅 <b>Maintenance</b> — calendar with scheduled water changes and events</sub></td>
-    <td align="center"><a href="images/ui_03_water_params.png"><img src="images/ui_03_water_params.png" width="320" alt="Water parameters and recipe"/></a><br><sub>💧 <b>Water parameters</b> — full analysis, hardness, complete recipe</sub></td>
+    <td align="center"><a href="images/ui_02_maintenance.png"><img src="images/ui_02_maintenance.png" width="420" alt="Maintenance calendar"/></a><br><sub>📅 <b>Maintenance</b> — calendar with scheduled water changes and events</sub></td>
+    <td align="center"><a href="images/ui_03_water_params.png"><img src="images/ui_03_water_params.png" width="420" alt="Water parameters and recipe"/></a><br><sub>💧 <b>Water parameters</b> — full analysis, hardness, complete recipe</sub></td>
   </tr>
   <tr>
-    <td align="center"><a href="images/ui_04_fish.png"><img src="images/ui_04_fish.png" width="320" alt="Fish inventory"/></a><br><sub>🐠 <b>Fish inventory</b> — species, quantity, food and last feeding</sub></td>
-    <td align="center"><a href="images/ui_05_history.png"><img src="images/ui_05_history.png" width="320" alt="Data history"/></a><br><sub>📈 <b>History</b> — telemetry charts with min/max/avg statistics</sub></td>
+    <td align="center"><a href="images/ui_04_fish.png"><img src="images/ui_04_fish.png" width="420" alt="Fish inventory"/></a><br><sub>🐠 <b>Fish inventory</b> — species, quantity, food and last feeding</sub></td>
+    <td align="center"><a href="images/ui_05_history.png"><img src="images/ui_05_history.png" width="420" alt="Data history"/></a><br><sub>📈 <b>History</b> — telemetry charts with min/max/avg statistics</sub></td>
   </tr>
 </table>
 

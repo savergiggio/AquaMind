@@ -95,15 +95,15 @@ screen per aprirlo a dimensione completa.**
 
 <table>
   <tr>
-    <td align="center"><a href="images/ui_01_dashboard.png"><img src="images/ui_01_dashboard.png" width="620" alt="Dashboard AquaMind: camera live, sensori, agente AI, controlli"/></a><br><sub>📷 <b>Dashboard</b> — video live, sensori (TEMP · PH · TDS · LEVEL), agente AI AquaMind, controlli manuali</sub></td>
+    <td align="center" colspan="2"><a href="images/ui_01_dashboard.png"><img src="images/ui_01_dashboard.png" width="620" alt="Dashboard AquaMind: camera live, sensori, agente AI, controlli"/></a><br><sub>📷 <b>Dashboard</b> — video live, sensori (TEMP · PH · TDS · LEVEL), agente AI AquaMind, controlli manuali</sub></td>
   </tr>
   <tr>
-    <td align="center"><a href="images/ui_02_maintenance.png"><img src="images/ui_02_maintenance.png" width="320" alt="Calendario manutenzione"/></a><br><sub>📅 <b>Manutenzione</b> — calendario con cambi d'acqua e interventi programmati</sub></td>
-    <td align="center"><a href="images/ui_03_water_params.png"><img src="images/ui_03_water_params.png" width="320" alt="Parametri acqua e ricetta"/></a><br><sub>💧 <b>Parametri acqua</b> — analisi completa, durezza, ricetta</sub></td>
+    <td align="center"><a href="images/ui_02_maintenance.png"><img src="images/ui_02_maintenance.png" width="420" alt="Calendario manutenzione"/></a><br><sub>📅 <b>Manutenzione</b> — calendario con cambi d'acqua e interventi programmati</sub></td>
+    <td align="center"><a href="images/ui_03_water_params.png"><img src="images/ui_03_water_params.png" width="420" alt="Parametri acqua e ricetta"/></a><br><sub>💧 <b>Parametri acqua</b> — analisi completa, durezza, ricetta</sub></td>
   </tr>
   <tr>
-    <td align="center"><a href="images/ui_04_fish.png"><img src="images/ui_04_fish.png" width="320" alt="Inventario pesci"/></a><br><sub>🐠 <b>Inventario pesci</b> — specie, quantità, cibo e ultimo pasto</sub></td>
-    <td align="center"><a href="images/ui_05_history.png"><img src="images/ui_05_history.png" width="320" alt="Storico dati"/></a><br><sub>📈 <b>Storico</b> — grafici telemetria con statistiche min/max/medie</sub></td>
+    <td align="center"><a href="images/ui_04_fish.png"><img src="images/ui_04_fish.png" width="420" alt="Inventario pesci"/></a><br><sub>🐠 <b>Inventario pesci</b> — specie, quantità, cibo e ultimo pasto</sub></td>
+    <td align="center"><a href="images/ui_05_history.png"><img src="images/ui_05_history.png" width="420" alt="Storico dati"/></a><br><sub>📈 <b>Storico</b> — grafici telemetria con statistiche min/max/medie</sub></td>
   </tr>
 </table>
 
