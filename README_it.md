@@ -1,5 +1,3 @@
-<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
-
 <p align="center">
   <img src="docs/banner.png" alt="AquaMind — sistema di monitoraggio acquario" width="920"/>
 </p>
@@ -28,7 +26,6 @@
   <a href="#-dashboard-web">Dashboard</a> ·
   <a href="#-architettura">Architettura</a> ·
   <a href="#-struttura-della-repo">Contenuto</a> ·
-  <a href="#-modelli-3d-interattivi">Modelli 3D</a> ·
   <a href="#-rendering-e-telecamera-subacquea">Rendering</a> ·
   <a href="#-quick-start">Quick start</a> ·
   <a href="#-api">API</a> ·
@@ -179,7 +176,7 @@ La meccanica è progettata in **SolidWorks** (sorgenti `.SLDPRT`) ed esportata i
   l'**attacco vetro 53 mm**, il supporto che fissa la sfera della telecamera al
   vetro dell'acquario.
 - **`3D/completo/`** — gli **assiemi principali in GLB**, visibili direttamente nel
-  browser ([Modelli 3D interattivi](#-modelli-3d-interattivi)).
+  browser.
 
 > 💡 I `.SLDPRT` sono i sorgenti SolidWorks, i `.STEP` il formato di scambio neutro.
 
@@ -274,25 +271,6 @@ provare i footprints reali dei connettori JST e validare la scheda finale.
 
 Se vuoi costruire la scheda, carica il set Gerber su PCBWay; il progetto
 ringrazia chi contribuisce alla filiera hardware. 🐟
-
----
-## 🎮 Modelli 3D interattivi
-
-I tre assiemi principali sono esportati in **GLB** (glTF binario) e si
-visualizzano **direttamente qui, nel browser**: trascina per ruotare, usa la
-rotella per lo zoom.
-
-### 🔲 Assieme scheda + sensori
-
-<model-viewer src="3D/completo/Assieme_scheda_e_sensori.glb" alt="Assieme AquaMind: PCB con sensori montati" poster="images/proto_03.jpg" auto-rotate camera-controls shadow-intensity="0.5" style="width:100%;height:480px"></model-viewer>
-
-### 📷 Assieme telecamera
-
-<model-viewer src="3D/completo/Assieme_telecamera.glb" alt="Assieme telecamera acquario" poster="docs/imx179-camera.jpg" auto-rotate camera-controls shadow-intensity="0.5" style="width:100%;height:480px"></model-viewer>
-
-### 🛠️ PCB AquaMind
-
-<model-viewer src="3D/completo/scheda.glb" alt="PCB AquaMind" poster="images/proto_02.jpg" auto-rotate camera-controls shadow-intensity="0.5" style="width:100%;height:480px"></model-viewer>
 
 ---
 
