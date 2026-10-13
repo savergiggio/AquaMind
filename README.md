@@ -25,6 +25,7 @@
 <p align="center">
   <sub>
   <a href="#-features">Features</a> ·
+  <a href="#-the-web-dashboard">Dashboard</a> ·
   <a href="#-architecture">Architecture</a> ·
   <a href="#-repository-structure">Contents</a> ·
   <a href="#-interactive-3d-models">3D Models</a> ·
@@ -88,6 +89,27 @@ A photo tour of the built prototype: custom PCB, 3D-printed enclosure and all th
 
 ---
 
+## 🖥️ The web dashboard
+
+The React dashboard is the control center: live video from the underwater sphere,
+real-time sensor cards, AI agent, manual controls, schedules, maintenance calendar,
+fish inventory and full history. **Click any screenshot to open it full size.**
+
+<table>
+  <tr>
+    <td align="center"><a href="images/ui_01_dashboard.png"><img src="images/ui_01_dashboard.png" width="620" alt="AquaMind dashboard: live camera, sensors, AI agent, controls"/></a><br><sub>📷 <b>Dashboard</b> — live video, sensors (TEMP · PH · TDS · LEVEL), AquaMind AI agent, manual controls</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="images/ui_02_maintenance.png"><img src="images/ui_02_maintenance.png" width="220" alt="Maintenance calendar"/></a>
+        <a href="images/ui_03_water_params.png"><img src="images/ui_03_water_params.png" width="220" alt="Water parameters and recipe"/></a>
+        <a href="images/ui_04_fish.png"><img src="images/ui_04_fish.png" width="220" alt="Fish inventory"/></a>
+        <a href="images/ui_05_history.png"><img src="images/ui_05_history.png" width="220" alt="Data history"/></a><br>
+    <sub>📅 <b>Maintenance</b> calendar &nbsp;·&nbsp; 💧 <b>Water parameters</b> &nbsp;·&nbsp; 🐠 <b>Fish inventory</b> &nbsp;·&nbsp; 📈 <b>History</b></sub>
+  </tr>
+</table>
+
+---
+
 ## 🧠 Architecture
 
 The flow is simple: the **ESP32-S3** reads the sensors and publishes them as JSON over
@@ -141,6 +163,7 @@ The repo is organized in 4 areas, one per "layer" of the project:
 │       ├── gerber/      #   Production files (fab-ready)
 │       └── production/  #   BOM, designators, IPC netlist, positions
 ├── rendering/           # Full-system renderings
+├── images/              # Prototype photos + dashboard screenshots
 └── docs/                # Page images and banner
 ```
 
@@ -257,21 +280,15 @@ The three main assemblies are exported as **GLB** (binary glTF) and render
 
 ### 🔲 Board + sensors assembly
 
-<model-viewer src="3D/completo/Assieme_scheda_e_sensori.glb" alt="AquaMind assembly: PCB with mounted sensors" shadow-intensity="0.5" auto-rotate auto-play style="width:100%;height:480px">
-  <img slot="poster" src="docs/sensore.jpg" alt="Board with sensors" style="width:100%;height:480px;object-fit:contain" />
-</model-viewer>
+<model-viewer src="3D/completo/Assieme_scheda_e_sensori.glb" alt="AquaMind assembly: PCB with mounted sensors" poster="images/proto_03.jpg" auto-rotate camera-controls shadow-intensity="0.5" style="width:100%;height:480px"></model-viewer>
 
 ### 📷 Camera assembly
 
-<model-viewer src="3D/completo/Assieme_telecamera.glb" alt="Aquarium camera assembly" shadow-intensity="0.5" auto-rotate auto-play camera-orbit="0deg 80deg 100%" style="width:100%;height:480px">
-  <img slot="poster" src="docs/imx179-camera.jpg" alt="IMX179 camera module" style="width:100%;height:480px;object-fit:contain" />
-</model-viewer>
+<model-viewer src="3D/completo/Assieme_telecamera.glb" alt="Aquarium camera assembly" poster="docs/imx179-camera.jpg" auto-rotate camera-controls shadow-intensity="0.5" style="width:100%;height:480px"></model-viewer>
 
 ### 🛠️ AquaMind PCB
 
-<model-viewer src="3D/completo/scheda.glb" alt="AquaMind PCB" shadow-intensity="0.5" auto-rotate auto-play style="width:100%;height:480px">
-  <img slot="poster" src="images/proto_02.jpg" alt="AquaMind PCB" style="width:100%;height:480px;object-fit:contain" />
-</model-viewer>
+<model-viewer src="3D/completo/scheda.glb" alt="AquaMind PCB" poster="images/proto_02.jpg" auto-rotate camera-controls shadow-intensity="0.5" style="width:100%;height:480px"></model-viewer>
 
 ---
 
@@ -354,7 +371,7 @@ The hardware components at the heart of the project:
 |:---:|:---:|:---:|
 | <img src="docs/imx179-camera.jpg" alt="IMX179 8MP camera module" width="300"/> | <img src="docs/tds-sensor.jpg" alt="TDS probe" width="300"/> | <img src="docs/ph-sensor.jpg" alt="PH-4502C pH probe" width="300"/> |
 | 🎥 **IMX179** — 8MP camera<br>night-vision in the underwater sphere | 🧪 **TDS** — salinity probe<br>ADC, EEPROM calibration | 🔬 **PH-4502C** — pH probe<br>ADC, EEPROM offset |
- | <img src="docs/ds18b20.jpg" alt="DS18B20 probe" width="300"/> | <img src="docs/rcwl-1670.jpg" alt="RCWL-1670 module" width="300"/> | <img src="3D/oled display/images.jpg" alt="SSD1306 OLED display" width="300"/> |
+ | <img src="docs/ds18b20.jpg" alt="DS18B20 probe" width="300"/> | <img src="docs/rcwl-1670.jpg" alt="RCWL-1670 module" width="300"/> | <img src="docs/oled-ssd1306.jpg" alt="SSD1306 OLED display" width="300"/> |
 | 🌡️ **DS18B20** — temperature probe<br>OneWire bus | 📶 **RCWL-1670** — mmWave module<br>water-level detection | 🖥️ **OLED SSD1306** — local display<br>128×64 I²C |
 | <img src="docs/esp32-s3.jpg" alt="ESP32-S3" width="300"/> | <img src="docs/raspberry-pi.jpg" alt="Raspberry Pi" width="300"/> | |
 | 🧠 **ESP32-S3** — microcontroller<br>sensor reading + OLED | 🍓 **Raspberry Pi** — central hub<br>API, history, video, AI | |
