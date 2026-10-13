@@ -259,15 +259,21 @@ rotella per lo zoom.
 
 ### 🔲 Assieme scheda + sensori
 
-<model-viewer src="3D/completo/Assieme_scheda_e_sensori.glb" alt="Assieme AquaMind: PCB con sensori montati" shadow-intensity="0.5" auto-rotate auto-play style="width:100%;height:480px"></model-viewer>
+<model-viewer src="3D/completo/Assieme_scheda_e_sensori.glb" alt="Assieme AquaMind: PCB con sensori montati" shadow-intensity="0.5" auto-rotate auto-play style="width:100%;height:480px">
+  <img slot="poster" src="docs/sensore.jpg" alt="Scheda con sensori" style="width:100%;height:480px;object-fit:contain" />
+</model-viewer>
 
 ### 📷 Assieme telecamera
 
- <model-viewer src="3D/completo/Assieme_telecamera.glb" alt="Assieme telecamera acquario" shadow-intensity="0.5" auto-rotate auto-play camera-orbit="0deg 80deg 100%" style="width:100%;height:480px"></model-viewer>
+<model-viewer src="3D/completo/Assieme_telecamera.glb" alt="Assieme telecamera acquario" shadow-intensity="0.5" auto-rotate auto-play camera-orbit="0deg 80deg 100%" style="width:100%;height:480px">
+  <img slot="poster" src="docs/imx179-camera.jpg" alt="Modulo camera IMX179" style="width:100%;height:480px;object-fit:contain" />
+</model-viewer>
 
 ### 🛠️ PCB AquaMind
 
-<model-viewer src="3D/completo/scheda.glb" alt="PCB AquaMind" shadow-intensity="0.5" auto-rotate auto-play style="width:100%;height:480px"></model-viewer>
+<model-viewer src="3D/completo/scheda.glb" alt="PCB AquaMind" shadow-intensity="0.5" auto-rotate auto-play style="width:100%;height:480px">
+  <img slot="poster" src="images/proto_02.jpg" alt="PCB AquaMind" style="width:100%;height:480px;object-fit:contain" />
+</model-viewer>
 
 ---
 
@@ -275,9 +281,13 @@ rotella per lo zoom.
 
 Rendering del sistema completo:
 
-![Rendering AquaMind](rendering/Acquario.png)
+<p align="center">
+  <img src="rendering/Acquario.png" width="500" alt="Rendering AquaMind"/>
+</p>
 
-![Rendering AquaMind 2](rendering/Acquario1.png)
+<p align="center">
+  <img src="rendering/Acquario1.png" width="500" alt="Rendering AquaMind 2"/>
+</p>
 
 ### 📷 La sfera subacquea
 
@@ -287,7 +297,9 @@ del verde — e **riadattata** apposta per questo scopo: al suo interno trova po
 camera **IMX179** (8 MP, 1080p, CMOS 1/3.2″) e la sfera viene fissata al vetro
 dell'acquario con l'**attacco 53 mm** (sorgenti in `3D/display/`).
 
-![Camera IMX179](docs/imx179-camera.jpg)
+<p align="center">
+  <img src="docs/imx179-camera.jpg" width="400" alt="Camera IMX179"/>
+</p>
 
 ---
 

@@ -257,15 +257,21 @@ The three main assemblies are exported as **GLB** (binary glTF) and render
 
 ### 🔲 Board + sensors assembly
 
-<model-viewer src="3D/completo/Assieme_scheda_e_sensori.glb" alt="AquaMind assembly: PCB with mounted sensors" shadow-intensity="0.5" auto-rotate auto-play style="width:100%;height:480px"></model-viewer>
+<model-viewer src="3D/completo/Assieme_scheda_e_sensori.glb" alt="AquaMind assembly: PCB with mounted sensors" shadow-intensity="0.5" auto-rotate auto-play style="width:100%;height:480px">
+  <img slot="poster" src="docs/sensore.jpg" alt="Board with sensors" style="width:100%;height:480px;object-fit:contain" />
+</model-viewer>
 
 ### 📷 Camera assembly
 
- <model-viewer src="3D/completo/Assieme_telecamera.glb" alt="Aquarium camera assembly" shadow-intensity="0.5" auto-rotate auto-play camera-orbit="0deg 80deg 100%" style="width:100%;height:480px"></model-viewer>
+<model-viewer src="3D/completo/Assieme_telecamera.glb" alt="Aquarium camera assembly" shadow-intensity="0.5" auto-rotate auto-play camera-orbit="0deg 80deg 100%" style="width:100%;height:480px">
+  <img slot="poster" src="docs/imx179-camera.jpg" alt="IMX179 camera module" style="width:100%;height:480px;object-fit:contain" />
+</model-viewer>
 
 ### 🛠️ AquaMind PCB
 
-<model-viewer src="3D/completo/scheda.glb" alt="AquaMind PCB" shadow-intensity="0.5" auto-rotate auto-play style="width:100%;height:480px"></model-viewer>
+<model-viewer src="3D/completo/scheda.glb" alt="AquaMind PCB" shadow-intensity="0.5" auto-rotate auto-play style="width:100%;height:480px">
+  <img slot="poster" src="images/proto_02.jpg" alt="AquaMind PCB" style="width:100%;height:480px;object-fit:contain" />
+</model-viewer>
 
 ---
 
@@ -273,9 +279,13 @@ The three main assemblies are exported as **GLB** (binary glTF) and render
 
 Full-system renderings:
 
-![AquaMind rendering](rendering/Acquario.png)
+<p align="center">
+  <img src="rendering/Acquario.png" width="500" alt="AquaMind rendering"/>
+</p>
 
-![AquaMind rendering 2](rendering/Acquario1.png)
+<p align="center">
+  <img src="rendering/Acquario1.png" width="500" alt="AquaMind rendering 2"/>
+</p>
 
 ### 📷 The underwater sphere
 
@@ -284,7 +294,9 @@ those solar-panel LED globes used for garden lighting — and **repurposed** for
 purpose: inside it sits the **IMX179** camera (8 MP, 1080p, 1/3.2″ CMOS), and the
 sphere is fixed to the tank glass with the **53 mm mount** (sources in `3D/display/`).
 
-![IMX179 camera](docs/imx179-camera.jpg)
+<p align="center">
+  <img src="docs/imx179-camera.jpg" width="400" alt="IMX179 camera"/>
+</p>
 
 ---
 
