@@ -23,10 +23,11 @@
 <p align="center">
   <sub>
   <a href="#-features">Features</a> ·
-  <a href="#-the-web-dashboard">Dashboard</a> ·
+  <a href="#-web-ui-react-dashboard">Web UI</a> ·
+  <a href="#-mobile-app">Mobile app</a> ·
   <a href="#-architecture">Architecture</a> ·
   <a href="#-repository-structure">Contents</a> ·
-  <a href="#-renderings-and-underwater-camera">Renderings</a> ·
+  <a href="#-3d-models-renders">3D models</a> ·
   <a href="#-quick-start">Quick start</a> ·
   <a href="#-api">API</a> ·
   <a href="#-components">Components</a> ·
@@ -49,9 +50,9 @@ let you keep an eye on everything, even from afar.
 The project covers **the entire chain**: from the sensor firmware, to the custom PCB,
 to the 3D-printed case, all the way to the Docker backend and the React frontend.
 
-### 📸 The final prototype
+### 📸 The built prototype · 3D-printed case + custom PCB
 
-A photo tour of the built prototype: custom PCB, 3D-printed enclosure and all the components. **Click any photo to open it full size.**
+A photo tour of the **physically built prototype**: PCB fabricated by PCBWay, 3D-printed enclosure and all the components. **Click any photo to open it full size.**
 
 <table>
   <tr>
@@ -81,12 +82,13 @@ A photo tour of the built prototype: custom PCB, 3D-printed enclosure and all th
 | 🤖 **AI** | **Google Gemini** integration for diagnostics and control |
 | 🔔 **Notifications** | **ntfy** and **Telegram** alerts when a parameter goes out of range |
 | 📈 **History** | Archived data with browsable history (`/sensors/history` API) |
-| 📱 **UI** | **React** dashboard + REST API for the mobile app |
+| 🖥️ **Web UI** | **React + Vite + Tailwind** dashboard served by Nginx |
+| 📱 **Mobile app** | Android app riding on the **same REST API** (sensors, video, AI, guides, backup) |
 | 🧩 **Home Assistant** | Custom component for **Chihiros** lights (BLE) |
 
 ---
 
-## 🖥️ The web dashboard
+## 🖥️ Web UI (React dashboard)
 
 The React dashboard is the control center: live video from the underwater sphere,
 real-time sensor cards, AI agent, manual controls, schedules, maintenance calendar,
@@ -105,6 +107,26 @@ fish inventory and full history. **Click any screenshot to open it full size.**
     <td align="center"><a href="images/ui_05_history.png"><img src="images/ui_05_history.png" width="420" alt="Data history"/></a><br><sub>📈 <b>History</b> — telemetry charts with min/max/avg statistics</sub></td>
   </tr>
 </table>
+
+---
+
+## 📱 Mobile app
+
+The **Android app** rides on the same REST API as the dashboard: sensor cards, live video,
+AI assistant, treatment guides, tank management and backup — right from the phone.
+**Tap any screenshot to open it full size.**
+
+<table>
+  <tr>
+    <td align="center"><a href="images/Screenshot_20261013_233030.jpg"><img src="images/Screenshot_20261013_233030.jpg" width="210" alt="AquaMind app home"/></a><br><sub>🏠 <b>Home</b> — sensor cards (TEMP · PH · TDS · LEVEL), trend charts, AI agent</sub></td>
+    <td align="center"><a href="images/Screenshot_20261013_233012.jpg"><img src="images/Screenshot_20261013_233012.jpg" width="210" alt="Guide &amp; Ricette"/></a><br><sub>📖 <b>Guides &amp; recipes</b> — disease treatments saved per tank</sub></td>
+    <td align="center"><a href="images/Screenshot_20261013_233021.jpg"><img src="images/Screenshot_20261013_233021.jpg" width="210" alt="Management menu"/></a><br><sub>⚙️ <b>Management</b> — add aquarium, tank manager, backup export/import</sub></td>
+    <td align="center"><a href="images/Screenshot_20261013_233038.jpg"><img src="images/Screenshot_20261013_233038.jpg" width="210" alt="AI Assistant chat"/></a><br><sub>🤖 <b>AI Assistant</b> — Gemini chat, quick diagnostic</sub></td>
+    <td align="center"><a href="images/Screenshot_20261013_233149.jpg"><img src="images/Screenshot_20261013_233149.jpg" width="210" alt="Full AI diagnostic"/></a><br><sub>🩺 <b>Full diagnostic</b> — pH, nitrogen cycle, GH/KH, TDS, fish compatibility</sub></td>
+  </tr>
+</table>
+
+All 12 app screenshots are in [`images/`](images/).
 
 ---
 
@@ -161,7 +183,7 @@ The repo is organized in 4 areas, one per "layer" of the project:
 │       ├── gerber/      #   Production files (fab-ready)
 │       └── production/  #   BOM, designators, IPC netlist, positions
 ├── rendering/           # Full-system renderings
-├── images/              # Prototype photos + dashboard screenshots
+├── images/              # Built-prototype photos · Web UI screens · mobile app screens
 └── docs/                # Page images and banner
 ```
 
@@ -272,9 +294,10 @@ everyone who supports the hardware pipeline. 🐟
 
 ---
 
-## 🎨 Renderings and underwater camera
+## 🧊 3D models (renders)
 
-Screenshots of the 3D models (from the GLB assemblies above):
+Renders of the **CAD 3D models** (from the GLB assemblies in `3D/`) — these are **not**
+photos of the built hardware, the physical prototype is in the section above:
 
 <table>
   <tr>
