@@ -23,10 +23,11 @@
 <p align="center">
   <sub>
   <a href="#-caratteristiche">Caratteristiche</a> ·
-  <a href="#-dashboard-web">Dashboard</a> ·
+  <a href="#-dashboard-web-react">UI web</a> ·
+  <a href="#-app-mobile">App mobile</a> ·
   <a href="#-architettura">Architettura</a> ·
   <a href="#-struttura-della-repo">Contenuto</a> ·
-  <a href="#-rendering-e-telecamera-subacquea">Rendering</a> ·
+  <a href="#-modelli-3d-rendering">Modelli 3D</a> ·
   <a href="#-quick-start">Quick start</a> ·
   <a href="#-api">API</a> ·
   <a href="#-componenti">Componenti</a> ·
@@ -49,13 +50,13 @@ permettono di tenere d'occhio tutto, anche da lontano.
 Il progetto copre **l'intera catena**: dal firmware del sensore, alla PCB custom, al
 case stampato in 3D, fino al backend Docker e alla frontend React.
 
-### 📸 Il prototipo finale
+### 📸 Il prototipo costruito · scocca stampata in 3D + PCB custom
 
-Un tour fotografico del prototipo realizzato: PCB custom, scocca stampata in 3D e tutti i componenti. **Clicca una foto per aprirla a dimensione completa.**
+Un tour fotografico del **prototipo fisicamente realizzato**: PCB prodotta da PCBWay, scocca stampata in 3D e tutti i componenti. **Clicca una foto per aprirla a dimensione completa.**
 
 <table>
   <tr>
-    <td align="center"><a href="images/proto_01.jpg"><img src="images/proto_01.jpg" width="220" alt="PCB realizzato da PCBWay"/></a><br><sub>🏭 PCB realizzato da PCBWay</sub></td>
+    <td align="center"><a href="images/proto_01.jpg"><img src="images/proto_01.jpg" width="220" alt="PCB realizzata da PCBWay"/></a><br><sub>🏭 PCB realizzata da PCBWay</sub></td>
     <td align="center"><a href="images/proto_02.jpg"><img src="images/proto_02.jpg" width="220" alt="Componenti e connettori JST"/></a><br><sub>🧩 Componenti &amp; connettori JST</sub></td>
     <td align="center"><a href="images/proto_03.jpg"><img src="images/proto_03.jpg" width="220" alt="Sensori cablati e ESP32"/></a><br><sub>🔌 Sensori cablati + ESP32</sub></td>
   </tr>
@@ -81,12 +82,13 @@ Un tour fotografico del prototipo realizzato: PCB custom, scocca stampata in 3D 
 | 🤖 **AI** | Integrazione **Google Gemini** per diagnostica e controllo |
 | 🔔 **Notifiche** | Allarmi su **ntfy** e **Telegram** quando un parametro esce dalle soglie |
 | 📈 **Storico** | Dati archiviati con storico consultabile (API `/sensors/history`) |
-| 📱 **UI** | Dashboard **React** + API REST per app mobile |
+| 🖥️ **UI web** | Dashboard **React + Vite + Tailwind** servita da Nginx |
+| 📱 **App mobile** | App Android sulla **stessa API REST** (sensori, video, AI, guide, backup) |
 | 🧩 **Home Assistant** | Componente custom per le luci **Chihiros** (BLE) |
 
 ---
 
-## 🖥️ Dashboard web
+## 🖥️ Dashboard web (UI React)
 
 La dashboard React è il centro di controllo: video live dalla sfera subacquea,
 card sensori in tempo reale, agente AI, controlli manuali, programmazioni,
@@ -106,6 +108,26 @@ screen per aprirlo a dimensione completa.**
     <td align="center"><a href="images/ui_05_history.png"><img src="images/ui_05_history.png" width="420" alt="Storico dati"/></a><br><sub>📈 <b>Storico</b> — grafici telemetria con statistiche min/max/medie</sub></td>
   </tr>
 </table>
+
+---
+
+## 📱 App mobile
+
+L'**app Android** usa la stessa API REST della dashboard: card sensori, video live,
+assistente AI, guide di cura, gestione vasche e backup — dal telefono. **Clicca uno
+screen per aprirlo a dimensione completa.**
+
+<table>
+  <tr>
+    <td align="center"><a href="images/Screenshot_20261013_233030.jpg"><img src="images/Screenshot_20261013_233030.jpg" width="210" alt="Home app AquaMind"/></a><br><sub>🏠 <b>Home</b> — card sensori (TEMP · PH · TDS · LIVELLO), grafici, agente AI</sub></td>
+    <td align="center"><a href="images/Screenshot_20261013_233012.jpg"><img src="images/Screenshot_20261013_233012.jpg" width="210" alt="Guide &amp; Ricette"/></a><br><sub>📖 <b>Guide &amp; Ricette</b> — cure salvate per acquario</sub></td>
+    <td align="center"><a href="images/Screenshot_20261013_233021.jpg"><img src="images/Screenshot_20261013_233021.jpg" width="210" alt="Menu gestione"/></a><br><sub>⚙️ <b>Gestione</b> — aggiungi acquario, gestione vasche, backup</sub></td>
+    <td align="center"><a href="images/Screenshot_20261013_233038.jpg"><img src="images/Screenshot_20261013_233038.jpg" width="210" alt="Chat Assistente AI"/></a><br><sub>🤖 <b>Assistente AI</b> — chat con Gemini, diagnostica rapida</sub></td>
+    <td align="center"><a href="images/Screenshot_20261013_233149.jpg"><img src="images/Screenshot_20261013_233149.jpg" width="210" alt="Diagnostica completa AI"/></a><br><sub>🩺 <b>Diagnostica completa</b> — pH, ciclo azoto, GH/KH, TDS, compatibilità pesci</sub></td>
+  </tr>
+</table>
+
+Tutti i 12 screen dell'app sono in [`images/`](images/).
 
 ---
 
@@ -161,7 +183,7 @@ La repo è organizzata in 4 aree, una per ogni "livello" del progetto:
 │       ├── gerber/      #   File di produzione (pronti per il fab)
 │       └── production/  #   BOM, designatori, netlist IPC, positions
 ├── rendering/           # Rendering del sistema completo
-├── images/              # Foto del prototipo + screen della dashboard
+├── images/              # Foto prototipo costruito · UI web · app mobile
 └── docs/                # Immagini e banner della pagina
 ```
 
@@ -274,9 +296,10 @@ ringrazia chi contribuisce alla filiera hardware. 🐟
 
 ---
 
-## 🎨 Rendering e telecamera subacquea
+## 🧊 Modelli 3D (rendering)
 
-Screen dei modelli 3D (dagli assiemi GLB qui sopra):
+Rendering dei **modelli 3D CAD** (dagli assiemi GLB in `3D/`) — **non** foto del hardware
+costruito: il prototipo fisico è nella sezione in alto.
 
 <table>
   <tr>
@@ -364,4 +387,3 @@ I componenti hardware al centro del progetto:
 ## 📄 Licenza
 
 [MIT](LICENSE) — fai pure, contribuisci pure. 🐟
----
