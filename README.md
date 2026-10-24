@@ -76,7 +76,7 @@ A photo tour of the **physically built prototype**: PCB fabricated by PCBWay, 3D
 
 | Area | What it does |
 |------|-------------|
-| 📷 **Video** | **IMX179** camera (8MP, 1080p) inside a **repurposed transparent garden sphere**, live MJPEG streaming + night-vision mode |
+| 📷 **Video** | **IMX179** camera (8MP, 1080p) inside a **repurposed transparent garden sphere**, live MJPEG streaming |
 | 💡 **Controls** | Lights, pump, skimmer, heater, feeder — from web and app |
 | 📅 **Scheduler** | Automatic on/off schedules for every device |
 | 🤖 **AI** | **Google Gemini** integration for diagnostics and control |
