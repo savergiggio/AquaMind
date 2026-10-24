@@ -76,7 +76,7 @@ Un tour fotografico del **prototipo fisicamente realizzato**: PCB prodotta da PC
 
 | Area | Cosa fa |
 |------|---------|
-| 📷 **Video** | Telecamera **IMX179** (8MP, 1080p) in una **sfera trasparente da giardino riadattata**, streaming MJPEG live + versione night-vision |
+| 📷 **Video** | Telecamera **IMX179** (8MP, 1080p) in una **sfera trasparente da giardino riadattata**, streaming MJPEG live |
 | 💡 **Controllo** | Luci, pompa, skimmer, scaldabagno, feeder — da web e app |
 | 📅 **Scheduler** | Programmazioni automatiche (on/off) per ogni dispositivo |
 | 🤖 **AI** | Integrazione **Google Gemini** per diagnostica e controllo |
