@@ -39,6 +39,31 @@
 
 # 🇬🇧 AquaMind
 
+## 🏭 Sponsor · PCBWay
+
+<p align="center">
+  <a href="https://pcbway.com"><img src="https://img.shields.io/badge/PCB%20fabrication-PCBWay-00a4e0?style=for-the-badge&logoColor=white" alt="PCBs fabricated by PCBWay"/></a>
+</p>
+
+A big thanks to  **[PCBWay](https://pcbway.com)** for supporting the project and taking care of the PCB fabrication for AquaMind.
+They manufactured the AquaMind board directly from the Gerber files and production data available in pcb/kicad/.
+I was really happy with how the board turned out. The overall finish was very clean, the silkscreen was sharp, and the drilling and routing looked precise.
+
+Having the real PCB in hand was also really useful because it allowed me to check things that are difficult to judge only from KiCad, especially connector placement, spacing, mounting points, and the JST footprints.
+
+The whole production process was straightforward, and the board arrived quickly and well made. Most importantly, the final result matched the design very closely, which gave me much more confidence in the hardware.
+Overall, I had a very positive experience with PCBWay. Seeing AquaMind go from a PCB layout on screen to a real, professionally manufactured board was one of the most satisfying parts of the project.
+
+Thanks again to PCBWay for supporting AquaMind and helping turn the design into a real PCB.
+
+- 📂 Fab-ready Gerbers: `pcb/kicad/gerber/`
+- 📋 BOM + positions + IPC netlist: `pcb/kicad/production/`
+- 🧊 3D model of the board: `pcb/kicad/AquaMind.step`
+
+Want to build the board? Upload the Gerber set to PCBWay — the project thanks
+everyone who supports the hardware pipeline. 🐟
+
+---
 
 ## 🐟 What is AquaMind
 
@@ -271,28 +296,6 @@ docker-compose up -d
 
 > 🏭 **The PCBs of this project are fabricated by [PCBWay](https://pcbway.com)** —
 > the files in `gerber/` and `production/` are fab-order ready.
-
-## 🏭 Sponsor · PCBWay
-
-<p align="center">
-  <a href="https://pcbway.com"><img src="https://img.shields.io/badge/PCB%20fabrication-PCBWay-00a4e0?style=for-the-badge&logoColor=white" alt="PCBs fabricated by PCBWay"/></a>
-</p>
-
-Special thanks to **[PCBWay](https://pcbway.com)**, the **official sponsor of the
-project for PCB fabrication**: they produced the AquaMind board (and the prototype
-revisions) straight from the Gerber set and BOM shipped in `pcb/kicad/`.
-
-With their support the project could iterate quickly on the layout, validate the real
-JST connector footprints and verify the final board.
-
-- 📂 Fab-ready Gerbers: `pcb/kicad/gerber/`
-- 📋 BOM + positions + IPC netlist: `pcb/kicad/production/`
-- 🧊 3D model of the board: `pcb/kicad/AquaMind.step`
-
-Want to build the board? Upload the Gerber set to PCBWay — the project thanks
-everyone who supports the hardware pipeline. 🐟
-
----
 
 ## 🧊 3D models (renders)
 
