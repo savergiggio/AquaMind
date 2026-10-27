@@ -49,8 +49,6 @@ A big thanks to  **[PCBWay](https://pcbway.com)** for supporting the project and
 They manufactured the AquaMind board directly from the Gerber files and production data available in pcb/kicad/.
 I was really happy with how the board turned out. The overall finish was very clean, the silkscreen was sharp, and the drilling and routing looked precise.
 
-Having the real PCB in hand was also really useful because it allowed me to check things that are difficult to judge only from KiCad, especially connector placement, spacing, mounting points, and the JST footprints.
-
 The whole production process was straightforward, and the board arrived quickly and well made. Most importantly, the final result matched the design very closely, which gave me much more confidence in the hardware.
 Overall, I had a very positive experience with PCBWay. Seeing AquaMind go from a PCB layout on screen to a real, professionally manufactured board was one of the most satisfying parts of the project.
 
