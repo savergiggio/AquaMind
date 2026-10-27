@@ -39,6 +39,29 @@
 
 # 🇮🇹 AquaMind
 
+## 🏭 Sponsor · PCBWay
+
+<p align="center">
+  <a href="https://pcbway.com"><img src="https://img.shields.io/badge/PCB%20fabrication-PCBWay-00a4e0?style=for-the-badge&logoColor=white" alt="PCB fabbricate da PCBWay"/></a>
+</p>
+
+Un grande grazie a **[PCBWay](https://pcbway.com)** per aver supportato il progetto e per essersi occupata della realizzazione del PCB di AquaMind.
+La scheda è stata prodotta direttamente a partire dai file Gerber e dai dati di produzione disponibili in pcb/kicad/.
+Sono rimasto molto soddisfatto del risultato finale. La qualità generale della scheda è davvero buona, la serigrafia è nitida e anche foratura e fresatura sono risultate precise.
+
+Anche il processo di produzione è stato semplice e senza problemi, e la scheda è arrivata in tempi rapidi e ben realizzata. La cosa più importante è che il risultato finale corrisponde molto bene a quello che avevo progettato, dandomi molta più sicurezza sull'hardware.
+Nel complesso, la mia esperienza con PCBWay è stata molto positiva. Vedere AquaMind passare da un layout sullo schermo a una vera scheda prodotta professionalmente è stata una delle parti più soddisfacenti del progetto.
+
+Grazie ancora a PCBWay per aver supportato AquaMind e aver contribuito a trasformare il progetto in un PCB reale.
+
+- 📂 Gerber pronti: `pcb/kicad/gerber/`
+- 📋 BOM + positions + netlist IPC: `pcb/kicad/production/`
+- 🧊 Modello 3D della scheda: `pcb/kicad/AquaMind.step`
+
+Se vuoi costruire la scheda, carica il set Gerber su PCBWay; il progetto
+ringrazia chi contribuisce alla filiera hardware. 🐟
+
+---
 
 ## 🐟 Cos'è AquaMind
 
@@ -272,29 +295,6 @@ docker-compose up -d
 
 > 🏭 **Le PCB di questo progetto sono realizzate da [PCBWay](https://pcbway.com)** —
 > i file in `gerber/` e `production/` sono pronti per il loro ordine di produzione.
-
-## 🏭 Sponsor · PCBWay
-
-<p align="center">
-  <a href="https://pcbway.com"><img src="https://img.shields.io/badge/PCB%20fabrication-PCBWay-00a4e0?style=for-the-badge&logoColor=white" alt="PCB fabbricate da PCBWay"/></a>
-</p>
-
-Un ringraziamento speciale a **[PCBWay](https://pcbway.com)**, **sponsor ufficiale del
-progetto per la realizzazione delle PCB**: hanno prodotto la scheda AquaMind
-(e i prototipi delle revisioni) partendo direttamente dai Gerber e dalla BOM
-presenti in `pcb/kicad/`.
-
-Grazie al loro supporto il progetto ha potuto iterare rapidamente sul layout,
-provare i footprints reali dei connettori JST e validare la scheda finale.
-
-- 📂 Gerber pronti: `pcb/kicad/gerber/`
-- 📋 BOM + positions + netlist IPC: `pcb/kicad/production/`
-- 🧊 Modello 3D della scheda: `pcb/kicad/AquaMind.step`
-
-Se vuoi costruire la scheda, carica il set Gerber su PCBWay; il progetto
-ringrazia chi contribuisce alla filiera hardware. 🐟
-
----
 
 ## 🧊 Modelli 3D (rendering)
 
